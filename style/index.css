@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.w{
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    margin: auto;
+    width: 14%;
+    text-shadow: 3px 2px 2px black;
+}
+
+.bg-light{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    margin-right: 5%;
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.contendor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.mobile{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+.desk{
+    display: none;
+}
+
+h2{
+    font-size: 2rem;
+    margin: auto;
+    font-weight: 800;
+    padding: 0.2rem;
+    color: black;
+}
+
+.texto{
+    color:hsl(236, 13%, 42%);
+}
+
+.rojo{
+    border: 1px solid transparent;
+    background: hsl(5, 85%, 63%);
+    letter-spacing: 1px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10%;
+}
+
+#blanco{
+    color: white;
+    margin: auto;
+    margin-top: 1%;
+}
+
+hr{
+    color: white;
+    font-size: 1rem;
+}
+.cajaOscura{
+    margin-bottom: 1rem;
+    background: hsl(240, 100%, 5%);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.naranja{
+    background: hsl(240, 100%, 5%);
+    color:  hsl(35, 77%, 62%);
+}
+
+#gris{
+    color: hsl(233, 8%, 79%);
+}
+
+#blancoM{
+    color: white;
+    margin: auto;
+    margin-top: -4%;
+}
+
+.imagen1, .imagen2 , .imagen3{
+    width:100%;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.pc , .laptop , .game{
+    width: 30%;
+    height: 50%;
+}
+
+.moverContenedor , .moverContenedor2 , .moverContenedor3{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+.grande{
+    color: hsl(233, 8%, 79%);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: -1%;
+}
+
+#Negro{
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 0%;
+    font-weight: 900;
+}
+
+#Gris{
+    color: hsl(233, 8%, 79%);
+    font-weight: 500;
+}
+
+.attribution{
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    .bg-light{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .w{
+        font-weight: 700;
+        color: black;
+        font-size: 2rem;
+        display: flex;
+        margin-right: -16%;
+    }
+
+    #navbarNavAltMarkup > div {
+        display: flex;
+        width: 100%;
+        gap: 3rem;
+        justify-content: flex-end;
+    }
+
+    #navbarNavAltMarkup > div > a:nth-child(2){
+        color: black;
+    }
+
+    #navbarNavAltMarkup > div > a:nth-child(3){
+        color: black;
+    }
+    #navbarNavAltMarkup > div > a:nth-child(4){
+        color: black;
+    }
+    #navbarNavAltMarkup > div > a:nth-child(5){
+        color: black;
+    }
+
+    .desk{
+        width: 80%;
+        display: flex;
+        margin: auto;
+        box-shadow: 1px 1px 1px 1px black;
+        box-shadow: 1px 1px 1px 1px white;
+    }
+    
+    .mobile{
+        display: none;
+    }
+
+    .contenedorDuo{
+        width: 100%;
+        display: flex;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: 10%;;
+    }
+
+    #moverTexto{
+        display: flex;
+        align-content: stretch;
+        margin-left: 4%;
+        align-items: center;
+    }
+
+    .texto{
+        display: flex;
+    }
+
+    .rojo{
+        margin: auto;
+        display: flex;
+        width: 20%;
+    }
+
+    #blancoM {
+        color: white;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    #gris {
+        color: hsl(233, 8%, 79%);
+        padding: 1rem;
+    }
+
+    .cajaOscura{
+        margin-top:  0;
+    }
+
+    .mueveTodo{
+        margin-top: 1rem;
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .pc, .laptop, .game {
+        width: 21%;
+    }
+
+    .imagen1, .imagen2, .imagen3 {
+        width: 100%;
+        height: 0%;
+        display: flex;
+        padding-bottom: 1rem;
+        margin-left: 1%;
+    }
+
+    .moverContenedor, .moverContenedor2, .moverContenedor3 {
+        display: flex;
+        margin-left: 4%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+}
